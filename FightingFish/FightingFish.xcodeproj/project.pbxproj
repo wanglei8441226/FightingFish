@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9BB78D871E683690008C28EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB78D861E683690008C28EC /* AppDelegate.swift */; };
-		9BB78D891E683690008C28EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB78D881E683690008C28EC /* ViewController.swift */; };
 		9BB78D8C1E683690008C28EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB78D8A1E683690008C28EC /* Main.storyboard */; };
 		9BB78D8E1E683690008C28EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB78D8D1E683690008C28EC /* Assets.xcassets */; };
 		9BB78D911E683690008C28EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB78D8F1E683690008C28EC /* LaunchScreen.storyboard */; };
@@ -40,7 +39,6 @@
 		8A4F3B085309D0EE4C72A7F3 /* Pods_FightingFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FightingFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB78D831E683690008C28EC /* FightingFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightingFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB78D861E683690008C28EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BB78D881E683690008C28EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BB78D8B1E683690008C28EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BB78D8D1E683690008C28EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB78D901E683690008C28EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,6 +77,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B362CCC1E69489300C81539 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B362CD01E69489300C81539 /* Main */,
+				9B362CCE1E69489300C81539 /* Home */,
+				9B362CCF1E69489300C81539 /* Live */,
+				9B362CCD1E69489300C81539 /* Follow */,
+				9B362CD11E69489300C81539 /* Profile */,
+				9B362CD21E69489300C81539 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9B362CCD1E69489300C81539 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Follow;
+			path = F0llow;
+			sourceTree = "<group>";
+		};
+		9B362CCE1E69489300C81539 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9B362CCF1E69489300C81539 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		9B362CD01E69489300C81539 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9B362CD11E69489300C81539 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9B362CD21E69489300C81539 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		9BB78D7A1E683690008C28EC = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +158,8 @@
 		9BB78D851E683690008C28EC /* FightingFish */ = {
 			isa = PBXGroup;
 			children = (
+				9B362CCC1E69489300C81539 /* Classes */,
 				9BB78D861E683690008C28EC /* AppDelegate.swift */,
-				9BB78D881E683690008C28EC /* ViewController.swift */,
 				9BB78D8A1E683690008C28EC /* Main.storyboard */,
 				9BB78D8D1E683690008C28EC /* Assets.xcassets */,
 				9BB78D8F1E683690008C28EC /* LaunchScreen.storyboard */,
@@ -335,7 +389,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB78D891E683690008C28EC /* ViewController.swift in Sources */,
 				9BB78D871E683690008C28EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
