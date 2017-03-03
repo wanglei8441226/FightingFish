@@ -14,6 +14,7 @@
 		9BB78D911E683690008C28EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB78D8F1E683690008C28EC /* LaunchScreen.storyboard */; };
 		9BB78D9C1E683691008C28EC /* FightingFishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB78D9B1E683691008C28EC /* FightingFishTests.swift */; };
 		9BB78DA71E683691008C28EC /* FightingFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB78DA61E683691008C28EC /* FightingFishUITests.swift */; };
+		D5178B4992A7948429EE9E88 /* Pods_FightingFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4F3B085309D0EE4C72A7F3 /* Pods_FightingFish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BF9FEDDCBD9742BEAFF030B /* Pods-FightingFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FightingFish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FightingFish/Pods-FightingFish.debug.xcconfig"; sourceTree = "<group>"; };
+		4CEF829B0C801804DDD155DF /* Pods-FightingFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FightingFish.release.xcconfig"; path = "Pods/Target Support Files/Pods-FightingFish/Pods-FightingFish.release.xcconfig"; sourceTree = "<group>"; };
+		8A4F3B085309D0EE4C72A7F3 /* Pods_FightingFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FightingFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB78D831E683690008C28EC /* FightingFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightingFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB78D861E683690008C28EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BB78D881E683690008C28EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5178B4992A7948429EE9E88 /* Pods_FightingFish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				9BB78D9A1E683691008C28EC /* FightingFishTests */,
 				9BB78DA51E683691008C28EC /* FightingFishUITests */,
 				9BB78D841E683690008C28EC /* Products */,
+				F2529046C7627937DB2F9F62 /* Pods */,
+				ED78920541735C34A1B445C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = FightingFishUITests;
 			sourceTree = "<group>";
 		};
+		ED78920541735C34A1B445C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A4F3B085309D0EE4C72A7F3 /* Pods_FightingFish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2529046C7627937DB2F9F62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BF9FEDDCBD9742BEAFF030B /* Pods-FightingFish.debug.xcconfig */,
+				4CEF829B0C801804DDD155DF /* Pods-FightingFish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BB78DAB1E683691008C28EC /* Build configuration list for PBXNativeTarget "FightingFish" */;
 			buildPhases = (
+				BD01EDEC7A5BD0D39ACAF373 /* [CP] Check Pods Manifest.lock */,
 				9BB78D7F1E683690008C28EC /* Sources */,
 				9BB78D801E683690008C28EC /* Frameworks */,
 				9BB78D811E683690008C28EC /* Resources */,
+				5F52E1E353F2B702DF1AC981 /* [CP] Embed Pods Frameworks */,
+				0EB9B69DC4DD749CAB97C2B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +281,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB9B69DC4DD749CAB97C2B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FightingFish/Pods-FightingFish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F52E1E353F2B702DF1AC981 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FightingFish/Pods-FightingFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD01EDEC7A5BD0D39ACAF373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BB78D7F1E683690008C28EC /* Sources */ = {
@@ -411,27 +486,35 @@
 		};
 		9BB78DAC1E683691008C28EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF9FEDDCBD9742BEAFF030B /* Pods-FightingFish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UZFC8C48VL;
 				INFOPLIST_FILE = FightingFish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangl.FightingFish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9BB78DAD1E683691008C28EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CEF829B0C801804DDD155DF /* Pods-FightingFish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = UZFC8C48VL;
 				INFOPLIST_FILE = FightingFish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangl.FightingFish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -508,6 +591,7 @@
 				9BB78DAD1E683691008C28EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BB78DAE1E683691008C28EC /* Build configuration list for PBXNativeTarget "FightingFishTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +600,7 @@
 				9BB78DB01E683691008C28EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BB78DB11E683691008C28EC /* Build configuration list for PBXNativeTarget "FightingFishUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +609,7 @@
 				9BB78DB31E683691008C28EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
