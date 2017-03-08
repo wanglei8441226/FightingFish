@@ -7,14 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B185B9D1E6D293C003600C5 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B185B9B1E6D293C003600C5 /* Follow.storyboard */; };
+		9B185BA01E6D2956003600C5 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B185B9E1E6D2956003600C5 /* Discover.storyboard */; };
+		9B185BAB1E6D2B68003600C5 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B185BA91E6D2B68003600C5 /* Mine.storyboard */; };
+		9B185BAD1E6D2DF5003600C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B185BAC1E6D2DF5003600C5 /* Main.storyboard */; };
+		9B185BB21E6D2EE1003600C5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B185BB11E6D2EE1003600C5 /* MainViewController.swift */; };
+		9B185BB51E6D32B1003600C5 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B185BB41E6D32B1003600C5 /* UIBarButtonItem+Extension.swift */; };
+		9B185BB71E6D349A003600C5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B185BB61E6D349A003600C5 /* HomeViewController.swift */; };
+		9B185BBA1E6D5B96003600C5 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B185BB91E6D5B96003600C5 /* PageTitleView.swift */; };
+		9B185BBC1E6D5D72003600C5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B185BBB1E6D5D72003600C5 /* Common.swift */; };
+		9B185BBE1E6D66D1003600C5 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B185BBD1E6D66D1003600C5 /* PageContentView.swift */; };
+		9B185BC01E6D6EB8003600C5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B185BBF1E6D6EB8003600C5 /* UIColor+Extension.swift */; };
+		9B4670211E6D1DD2000CEFA8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B46701F1E6D1DD2000CEFA8 /* Home.storyboard */; };
+		9B4670241E6D1DE9000CEFA8 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B4670221E6D1DE9000CEFA8 /* Live.storyboard */; };
 		9BB78D871E683690008C28EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB78D861E683690008C28EC /* AppDelegate.swift */; };
-		9BB78D8C1E683690008C28EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB78D8A1E683690008C28EC /* Main.storyboard */; };
 		9BB78D8E1E683690008C28EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB78D8D1E683690008C28EC /* Assets.xcassets */; };
 		9BB78D911E683690008C28EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB78D8F1E683690008C28EC /* LaunchScreen.storyboard */; };
 		9BB78D9C1E683691008C28EC /* FightingFishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB78D9B1E683691008C28EC /* FightingFishTests.swift */; };
 		9BB78DA71E683691008C28EC /* FightingFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB78DA61E683691008C28EC /* FightingFishUITests.swift */; };
 		D5178B4992A7948429EE9E88 /* Pods_FightingFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4F3B085309D0EE4C72A7F3 /* Pods_FightingFish.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		9BCD3CB31E6C59C800429223 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.metal;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# metal\n";
+		};
+		9BCD3CB41E6C59CB00429223 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.metal;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# metal\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		9BB78D981E683691008C28EC /* PBXContainerItemProxy */ = {
@@ -37,9 +70,21 @@
 		4BF9FEDDCBD9742BEAFF030B /* Pods-FightingFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FightingFish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FightingFish/Pods-FightingFish.debug.xcconfig"; sourceTree = "<group>"; };
 		4CEF829B0C801804DDD155DF /* Pods-FightingFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FightingFish.release.xcconfig"; path = "Pods/Target Support Files/Pods-FightingFish/Pods-FightingFish.release.xcconfig"; sourceTree = "<group>"; };
 		8A4F3B085309D0EE4C72A7F3 /* Pods_FightingFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FightingFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B185B9C1E6D293C003600C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FightingFish/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		9B185B9F1E6D2956003600C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FightingFish/Base.lproj/Discover.storyboard; sourceTree = SOURCE_ROOT; };
+		9B185BAA1E6D2B68003600C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FightingFish/Base.lproj/Mine.storyboard; sourceTree = SOURCE_ROOT; };
+		9B185BAC1E6D2DF5003600C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		9B185BB11E6D2EE1003600C5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9B185BB41E6D32B1003600C5 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		9B185BB61E6D349A003600C5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9B185BB91E6D5B96003600C5 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		9B185BBB1E6D5D72003600C5 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		9B185BBD1E6D66D1003600C5 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		9B185BBF1E6D6EB8003600C5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		9B4670201E6D1DD2000CEFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FightingFish/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		9B4670231E6D1DE9000CEFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FightingFish/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		9BB78D831E683690008C28EC /* FightingFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightingFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB78D861E683690008C28EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BB78D8B1E683690008C28EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BB78D8D1E683690008C28EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB78D901E683690008C28EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB78D921E683690008C28EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +122,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B185BAE1E6D2EB5003600C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B185BAC1E6D2DF5003600C5 /* Main.storyboard */,
+				9B185BB11E6D2EE1003600C5 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9B185BAF1E6D2EB5003600C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B185BB01E6D2EB5003600C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B185BB91E6D5B96003600C5 /* PageTitleView.swift */,
+				9B185BBD1E6D66D1003600C5 /* PageContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B185BB31E6D3282003600C5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9B185BB41E6D32B1003600C5 /* UIBarButtonItem+Extension.swift */,
+				9B185BBF1E6D6EB8003600C5 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		9B362CCC1E69489300C81539 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +163,7 @@
 				9B362CCE1E69489300C81539 /* Home */,
 				9B362CCF1E69489300C81539 /* Live */,
 				9B362CCD1E69489300C81539 /* Follow */,
+				9B46700F1E6D1B34000CEFA8 /* Discover */,
 				9B362CD11E69489300C81539 /* Profile */,
 				9B362CD21E69489300C81539 /* Tools */,
 			);
@@ -93,6 +173,7 @@
 		9B362CCD1E69489300C81539 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				9B185B9B1E6D293C003600C5 /* Follow.storyboard */,
 			);
 			name = Follow;
 			path = F0llow;
@@ -101,6 +182,8 @@
 		9B362CCE1E69489300C81539 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9B46701F1E6D1DD2000CEFA8 /* Home.storyboard */,
+				9B185BB61E6D349A003600C5 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -108,6 +191,7 @@
 		9B362CCF1E69489300C81539 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				9B4670221E6D1DE9000CEFA8 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -115,6 +199,9 @@
 		9B362CD01E69489300C81539 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9B185BAE1E6D2EB5003600C5 /* Controllers */,
+				9B185BAF1E6D2EB5003600C5 /* Model */,
+				9B185BB01E6D2EB5003600C5 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -122,6 +209,7 @@
 		9B362CD11E69489300C81539 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				9B185BA91E6D2B68003600C5 /* Mine.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -129,9 +217,20 @@
 		9B362CD21E69489300C81539 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9B185BB31E6D3282003600C5 /* Extension */,
+				9B185BBB1E6D5D72003600C5 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
+		};
+		9B46700F1E6D1B34000CEFA8 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				9B185B9E1E6D2956003600C5 /* Discover.storyboard */,
+			);
+			name = Discover;
+			path = FightingFish/Classes/Discover;
+			sourceTree = SOURCE_ROOT;
 		};
 		9BB78D7A1E683690008C28EC = {
 			isa = PBXGroup;
@@ -160,7 +259,6 @@
 			children = (
 				9B362CCC1E69489300C81539 /* Classes */,
 				9BB78D861E683690008C28EC /* AppDelegate.swift */,
-				9BB78D8A1E683690008C28EC /* Main.storyboard */,
 				9BB78D8D1E683690008C28EC /* Assets.xcassets */,
 				9BB78D8F1E683690008C28EC /* LaunchScreen.storyboard */,
 				9BB78D921E683690008C28EC /* Info.plist */,
@@ -218,6 +316,8 @@
 				0EB9B69DC4DD749CAB97C2B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
+				9BCD3CB41E6C59CB00429223 /* PBXBuildRule */,
+				9BCD3CB31E6C59C800429223 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -315,8 +415,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB78D911E683690008C28EC /* LaunchScreen.storyboard in Resources */,
+				9B185B9D1E6D293C003600C5 /* Follow.storyboard in Resources */,
 				9BB78D8E1E683690008C28EC /* Assets.xcassets in Resources */,
-				9BB78D8C1E683690008C28EC /* Main.storyboard in Resources */,
+				9B185BAD1E6D2DF5003600C5 /* Main.storyboard in Resources */,
+				9B4670241E6D1DE9000CEFA8 /* Live.storyboard in Resources */,
+				9B185BA01E6D2956003600C5 /* Discover.storyboard in Resources */,
+				9B4670211E6D1DD2000CEFA8 /* Home.storyboard in Resources */,
+				9B185BAB1E6D2B68003600C5 /* Mine.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +495,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB78D871E683690008C28EC /* AppDelegate.swift in Sources */,
+				9B185BB51E6D32B1003600C5 /* UIBarButtonItem+Extension.swift in Sources */,
+				9B185BBE1E6D66D1003600C5 /* PageContentView.swift in Sources */,
+				9B185BBA1E6D5B96003600C5 /* PageTitleView.swift in Sources */,
+				9B185BB21E6D2EE1003600C5 /* MainViewController.swift in Sources */,
+				9B185BBC1E6D5D72003600C5 /* Common.swift in Sources */,
+				9B185BB71E6D349A003600C5 /* HomeViewController.swift in Sources */,
+				9B185BC01E6D6EB8003600C5 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,12 +537,49 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9BB78D8A1E683690008C28EC /* Main.storyboard */ = {
+		9B185B9B1E6D293C003600C5 /* Follow.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9BB78D8B1E683690008C28EC /* Base */,
+				9B185B9C1E6D293C003600C5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		9B185B9E1E6D2956003600C5 /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B185B9F1E6D2956003600C5 /* Base */,
+			);
+			name = Discover.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		9B185BA91E6D2B68003600C5 /* Mine.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B185BAA1E6D2B68003600C5 /* Base */,
+			);
+			name = Mine.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		9B46701F1E6D1DD2000CEFA8 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4670201E6D1DD2000CEFA8 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		9B4670221E6D1DE9000CEFA8 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B4670231E6D1DE9000CEFA8 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 		9BB78D8F1E683690008C28EC /* LaunchScreen.storyboard */ = {
