@@ -75,5 +75,11 @@ extension PageContentView: UICollectionViewDataSource{
         
         return cell
     }
-    
+}
+// MARK: - 暴露的外部方法
+extension PageContentView {
+    func pageContenViewScrollIndex(_ index: Int){
+        let offsetX = CGFloat(index) * frame.size.width
+        collectionView.setContentOffset(CGPoint(x: offsetX, y: 0), animated: false)
+    }
 }
